@@ -1,0 +1,26 @@
+body, html, #root{
+  font-family: sans-serif;
+  margin: 0;
+  min-height:100%;
+  height: 100%;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;  
+}
+
+.background {
+  background-image: url(src/img/21omxpw.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -10;
+}
+
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
