@@ -9,9 +9,14 @@ const Home = () => {
         <div className="aboutMe">
           <p className="title">Quien Soy?</p>
           <p className="contain">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            asperiores doloremque aliquid blanditiis in sit. Soluta,
-            consequuntur veniam, eius commodi doloribus delectus.
+            <div>
+              <span className="presentation">Hola, soy Nahuel, Desarrollador Back-end Java.</span>
+              <span className="uruguay"> Soy de uruguay 🧉. </span> 
+            </div>
+            <span className="context">
+              Me centro en el desarrollo de software innovador
+              y de calidad en el entorno web.
+            </span>
           </p>
         </div>
         <Trajectory />

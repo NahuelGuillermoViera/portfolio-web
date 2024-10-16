@@ -9,10 +9,10 @@ const Timelinecontent = (props) => {
           <p className="title">{props.title}</p>
           <p className="date">{props.fecha}</p>
         </div>
-
-        <p className="contain">
+        
+        <div className="contain">
           {props.context}
-        </p>
+        </div>
       </div>
     </div>
   );

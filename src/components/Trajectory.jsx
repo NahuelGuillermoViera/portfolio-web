@@ -10,55 +10,25 @@ const Trajectory = () => {
           <div className="timeline">
           </div>
             <Timelinecontent 
-              title='Cosa 1'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
+              title='Bootcamp Lumetrio'
+              fecha='Noviembre 2023 - Enero 2024' 
+              context='En este Bootcamp aprendi las bases de el desarrollo y la belleza del mundo IT'
             />
             <Timelinecontent 
-              title='Cosa 2'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
+              title='Facultad de Ingenieria UDELAR'
+              fecha='Febrero 2024 - Actualmente cursando' 
+              context='Carrera en Ingenieria Electrica donde adquiero conocimientos de grado academico'
               />
             <Timelinecontent 
-              title='Cosa 3'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
+              title='Java Autodidacta'
+              fecha='Marzo 2024' 
+              context="Este es el metodo de aprendizaje que mantengo hasta ahora centrandome en el desarrollo backend, la creacion de API's y Microservicios"
               />   
             <Timelinecontent 
-              title='Cosa 4'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
+              title='Creacion de proyectos'
+              fecha='Mayo 2024' 
+              context='Empece a crear proyectos personales para afianzar mis conocimientos con experiencia en retos autoimpuestos. A su vez realice algunos proyectos de indole profesional para algunos emprendimientos del mercado'
             />
-            <Timelinecontent 
-              title='Cosa 4'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
-            />      
-            <Timelinecontent 
-              title='Cosa 4'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
-              />   
-            <Timelinecontent 
-              title='Cosa 4'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
-              />   
-            <Timelinecontent 
-              title='Cosa 4'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
-              />   
-            <Timelinecontent 
-              title='Cosa 4'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
-              />   
-            <Timelinecontent 
-              title='Cosa 4'
-              fecha='fecha1' 
-              context='lorem ipsum bla bla bla'
-              />   
           </div>
 
       </div>

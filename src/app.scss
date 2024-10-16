@@ -30,6 +30,9 @@
                     transition: all 0.2s linear;
                     border: 2px rgba(0, 255, 255, 0.8) solid;
                     box-sizing: border-box;
+                    &:hover {
+                        transform: scale(115%);
+                    }
                     img {
                         width: 50px;
                         height: 50px;
@@ -263,7 +266,23 @@
                             filter: drop-shadow(0px 0px 5px rgba(0, 255, 255, 0.8));
                         }
                         .contain {
-                            font-size: 1.1rem;
+                            margin-block-start: 30px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            font-weight: bold;
+                            .presentation {
+                                color: rgb(226, 173, 0);
+                                
+                                font-size: 1.1rem;
+                            }
+                            .uruguay {
+                                color: rgb(16, 187, 255);
+                                
+                            }
+                            .context {
+                                color: rgb(220, 223, 233);
+                            }
                         }
                     }
 
@@ -300,15 +319,24 @@
                                 gap: 15px;
                                 .timeline-head{
                                     display: flex;
-                                    gap: 10px;
-                                    align-items: end;
+                                    flex-direction: column;
+                                    gap: 5px;
+                                    font-weight: bold;
                                     .title {
-                                        font-size: 1.2rem;
+                                        font-size: 1rem;
+                                        color: rgb(226, 173, 0);
                                     }
                                     .date {
-                                        font-size: 0.8rem;
+                                        font-size: 0.7rem;
                                         margin-bottom: 2.2px;
+                                        color: rgb(220, 223, 233);
                                     }
+                                }
+                                .contain {
+                                    font-weight: bold;
+                                    font-size: 0.9rem;
+                                    margin-block-start: 8px;
+                                    max-width: 400px;
                                 }
                                 .dot{
                                     display: flex;

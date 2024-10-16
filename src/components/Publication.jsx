@@ -6,7 +6,7 @@ import { useMediaQuery } from "react-responsive";
 
 const Publication = () => {
   const isDesktopOrLaptop = useMediaQuery ({
-    query: '(min-width: 600px)'
+    query: '(min-width: 730px)'
   })
 
   return (

@@ -4,7 +4,7 @@ import {useMediaQuery} from 'react-responsive'
 
 const Feed = () => {
     const isDesktopOrLaptop = useMediaQuery ({
-        query: '(min-width: 600px)'
+        query: '(min-width: 730px)'
       })
 
   return (
