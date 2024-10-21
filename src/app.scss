@@ -7,12 +7,53 @@
         
         //navbar
 
+        @media (min-width: 800px) {
+            .navbar {
+                .container {
+                    width: 800px;
+                    margin-top: 20px;
+                    border-radius: 15px 15px 15px 15px;
+                    .links {
+                        position: absolute;
+                        right: 0;
+                        margin: 10px;
+                        z-index: 100;
+                    }
+                }
+            }
+            .footer {
+                .container{
+                    width: 800px;
+                }
+            }
+        }
+
+        @media (max-width: 800px) {
+            .navbar {
+                .container {
+                    border-radius: 0 0px 15px 15px;
+                }
+            }
+            
+        }
+
+        @media (max-width: 600px) {
+            .links {
+                position: absolute;
+                right: 10px;
+                z-index: 100;
+                top: 70px;
+            }
+        }
+
         .navbar {
+            display: flex;
+            justify-content: center;
             .container {
                 background: rgba(0, 128, 128, 0.2);
                 backdrop-filter: blur(8px);
                 border-bottom: 2px rgba(0, 255, 255, 0.5) solid;
-                border-radius: 0 0 15px 15px;
+                
                 box-shadow: 0px 0px 20px 5px rgba(0, 128, 128, 0.3) inset;
                 max-width: 100%;
                 max-height: 65px;
@@ -107,11 +148,8 @@
                     }
                 }
             }    
+
             .links {
-                position: absolute;
-                right: 0;
-                margin: 10px;
-                z-index: 100;
                 .sider {
                     display: flex;
                     flex-direction: column;
@@ -144,27 +182,28 @@
                 }
             }
         }
+
         
         //footer
         .footer{
-            background-color: rgba(0, 128, 128, 0.2);
-            backdrop-filter: blur(8px);
             display: flex;
             width: 100%;
-            max-width: 100%;
-            height: 300px;
-            box-sizing: border-box;
-            border-top: 2px rgba(0, 255, 255, 0.5) solid;
-            border-radius: 15px 15px 0 0;
-            box-shadow: 0px 0px 20px 5px rgba(0, 255, 255, 0.3) inset;
+            justify-content: center;
             align-items: center;
             .container {
+                background-color: rgba(0, 128, 128, 0.2);
+                backdrop-filter: blur(8px);
                 display: flex;
                 max-height: 80%;
-                height: 80%;
                 flex-direction: column;
                 justify-content: space-between;
-                margin: 20px;
+                padding: 20px;
+                height: 300px;
+                box-sizing: border-box;
+                border-top: 2px rgba(0, 255, 255, 0.5) solid;
+                border-radius: 15px 15px 0 0;
+                box-shadow: 0px 0px 20px 5px rgba(0, 255, 255, 0.3) inset;
+                align-items: center;
                 .buttons {
                     display: flex;
                     justify-content: center;
@@ -239,6 +278,7 @@
         .page {
             display: flex;
             min-height: calc(100% - 365px);
+            justify-content: center;
             &.home {
                 .container {
                     backdrop-filter: blur(8px);
@@ -247,12 +287,12 @@
                     box-sizing: border-box;
                     box-shadow: 0px 0px 20px 5px rgba(0, 255, 255, 0.3) inset;
                     margin: 10px;
-                    margin-top: 20px;
-                    margin-bottom: 20px;
+                    margin-block: 30px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     border-radius: 15px;
+                    max-width: 730px;
 
                     //SOBRE MI
                     .aboutMe{
@@ -336,7 +376,7 @@
                                     font-weight: bold;
                                     font-size: 0.9rem;
                                     margin-block-start: 8px;
-                                    max-width: 400px;
+                                    max-width: 80%;
                                 }
                                 .dot{
                                     display: flex;
@@ -481,8 +521,8 @@
 
             @media (min-width: 760px) {
                 .page {
-                    width: 85%;
-                    margin-inline: 7.5%;
+                    display: flex;
+                    justify-content: center;
                 }
             }
 
